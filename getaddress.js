@@ -12,7 +12,7 @@ list.push(new Mnemonic('price squeeze plate symptom private genre found total gu
 list.push(new Mnemonic('hill glance wisdom glide useful century ladder chase indicate shaft mammal initial defense visa lunar riot speak clock brush field ill define hard north', Mnemonic.Words.ENGLISH));
 
 var keys = list.map(function(v){
-    return new bitcore.HDPublicKey(v.toHDPrivateKey().derive("m/0'"), 'livenet')
+    return new bitcore.HDPublicKey(v.toHDPrivateKey().derive("m/0'"))
 }).map(function(v){
     return v.publicKey
 })
