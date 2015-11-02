@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "bitcoinjs-lib" : "",
-    "bitcore-mnemonic" : "",
-    "bitcore-lib" : ""
+    "bitcoinjs-lib" : "2.1.*",
+    "bitcore-mnemonic" : "1.0.*",
+    "bitcore-lib" : "0.13.*"
   },
   "readmeFilename": "README.md",
   "description": "",
